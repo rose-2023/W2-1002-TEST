@@ -10,19 +10,22 @@ h1{
     /* 居中對齊 */
 }
 p{
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0;
+    /* padding: 100px 0; */
 }
 .topics{
     display: flex;
     gap: 10px;
     margin: 20px auto;
+    /* padding: 100px 0; */
 }
 label{
-    background-color: #e09150;
+    background-color: gray;
     padding: 10px 15px;
     border-radius: 10px;
     cursor: pointer;
+    margin: 10px 5px;
 }
 .question_ai h3,
 .feedback h3{
@@ -32,7 +35,7 @@ label{
 .feedback{
     background-color: #e0f7fa;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 10px;
     margin: 20px auto;
 }
 .container{
